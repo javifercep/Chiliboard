@@ -1,2 +1,2 @@
 # Chiliboard
-Noodleboard complement with CAN communication interface
+[Noodleboard](https://github.com/javifercep/Noodleboard) complement with CAN communication interface
