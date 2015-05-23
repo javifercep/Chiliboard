@@ -1,0 +1,124 @@
+eeschema (2013-02-27 BZR 3976)-stable  >> Creation date: 11/06/2013 11:42:09
+#Cmp ( order = Reference )
+| C1         4.7p        ; ~           
+| C2         4.7p        ; ~           
+| C3         1u          ; ~           
+| C4         100n        ; ~           
+| C5         100n        ; ~           
+| C6         1u          ; ~           
+| C7         100n        ; ~           
+| C8         100n        ; ~           
+| C9         100n        ; ~           
+| C10        6.8p        ; ~           
+| C11        100n        ; ~           
+| C12        6.8p        ; ~           
+| C13        1u          ; ~           
+| C14        10u         ; ~           
+| C15        10u         ; ~           
+| C16        10u         ; ~           
+| C17        100n        ; ~           
+| C18        100n        ; ~           
+| C29        100n        ; ~           
+| C32        4u7         ; ~           
+| CON1       SWD         ;             
+| D1         DIODE       ; ~           
+| D10        LED         ; ~           
+| D11        LED         ; ~           
+| D12        LED         ; ~           
+| D13        LED         ; ~           
+| IC1        LD1117S33   ; ~           
+| J1         DB9         ;             
+| J2         DB9         ;             
+| JP1        JUMPER      ; ~           
+| L1         fcm1608     ; ~           
+| R1         0           ; ~           
+| R2         0           ; ~           
+| R3         47          ; ~           
+| R4         10k         ; ~           
+| R5         510         ; ~           
+| R6         0           ; ~           
+| R7         0           ; ~           
+| R8         120         ; ~           
+| R9         0           ; ~           
+| R10        120         ; ~           
+| R11        0           ; ~           
+| R12        0           ; ~           
+| R13        0           ; ~           
+| R14        0           ; ~           
+| R15        0           ; ~           
+| R34        100         ; ~           
+| R35        510         ; ~           
+| R36        510         ; ~           
+| R37        680         ; ~           
+| R38        680         ; ~           
+| SW2        SW_PUSH     ; ~           
+| U1         STM32F105R8 ; ~           
+| U2         ARDUINO_UNO_EX; ~           
+| U3         SN65HVD232  ;             
+| U4         SN65HVD232  ;             
+| X1         16 MHz      ; ~           
+| X2         32.768 kHz  ; ~           
+#End Cmp
+
+#Componentes ( orden = Valor )
+| 4.7p         C1        ; ~           
+| 4.7p         C2        ; ~           
+| 6.8p         C10       ; ~           
+| 6.8p         C12       ; ~           
+| 100n         C4        ; ~           
+| 100n         C5        ; ~           
+| 100n         C7        ; ~           
+| 100n         C8        ; ~           
+| 100n         C9        ; ~           
+| 100n         C11       ; ~           
+| 100n         C17       ; ~           
+| 100n         C18       ; ~           
+| 100n         C29       ; ~           
+| 1u           C3        ; ~           
+| 1u           C6        ; ~           
+| 1u           C13       ; ~           
+| 4u7          C32       ; ~           
+| 10u          C14       ; ~           
+| 10u          C15       ; ~           
+| 10u          C16       ; ~           
+| SWD          CON1      ;             
+| DIODE        D1        ; ~           
+| LED          D10       ; ~           
+| LED          D11       ; ~           
+| LED          D12       ; ~           
+| LED          D13       ; ~           
+| LD1117S33    IC1       ; ~           
+| DB9          J1        ;             
+| DB9          J2        ;             
+| JUMPER       JP1       ; ~           
+| fcm1608      L1        ; ~           
+| 0            R1        ; ~           
+| 0            R2        ; ~           
+| 0            R6        ; ~           
+| 0            R7        ; ~           
+| 0            R9        ; ~           
+| 0            R11       ; ~           
+| 0            R12       ; ~           
+| 0            R13       ; ~           
+| 0            R14       ; ~           
+| 0            R15       ; ~           
+| 47           R3        ; ~           
+| 100          R34       ; ~           
+| 120          R8        ; ~           
+| 120          R10       ; ~           
+| 510          R5        ; ~           
+| 510          R35       ; ~           
+| 510          R36       ; ~           
+| 680          R37       ; ~           
+| 680          R38       ; ~           
+| 10k          R4        ; ~           
+| SW_PUSH      SW2       ; ~           
+| SN65HVD232   U3        ;             
+| SN65HVD232   U4        ;             
+| STM32F105R8  U1        ; ~           
+| ARDUINO_UNO_EX U2        ; ~           
+| 32.768 kHz   X2        ; ~           
+| 16 MHz       X1        ; ~           
+#Fin Componentes
+
+#Fin de Lista
